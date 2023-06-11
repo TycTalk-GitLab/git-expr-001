@@ -19,9 +19,9 @@ private:
 
 int main() {
     std::vector<Student> students;
-    students.push_back(Student("Tom", 20, 90.5));
-    students.push_back(Student("Jerry", 19, 88.5));
-    students.push_back(Student("Alice", 21, 92.5));
+    students.push_back(Student("Tom2", 20, 90.5));
+    students.push_back(Student("Jerry2", 19, 88.5));
+    students.push_back(Student("Alice2", 21, 92.5));
 
     double average_score = 0.0;
     for (const auto& student : students) {
