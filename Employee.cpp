@@ -17,8 +17,8 @@ private:
 };
 
 int main() {
-    Employee emp1("Alice", 1, 5000.00);
-    Employee emp2("Bob", 2, 6000.00);
+    Employee emp1("Jerry", 1, 5000.00);
+    Employee emp2("Jack", 2, 6000.00);
   
     std::cout << "Employee: " << emp1.GetName() << ", ID: " << emp1.GetId()
               << ", Salary: " << emp1.GetSalary() << std::endl;
