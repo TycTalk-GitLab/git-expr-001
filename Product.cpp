@@ -17,8 +17,8 @@ private:
 };
 
 int main() {
-    Product prod1("Apple", 1, 0.99);
-    Product prod2("Banana", 2, 0.59);
+    Product prod1("Pear", 1, 0.99);
+    Product prod2("Bear", 2, 0.59);
   
     std::cout << "Product: " << prod1.GetName() << ", ID: " << prod1.GetId()
               << ", Price: " << prod1.GetPrice() << std::endl;
